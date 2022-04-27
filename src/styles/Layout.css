@@ -1,0 +1,21 @@
+.layout{
+    min-height: 100vh;
+}
+
+.mobile-header{
+    display: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #2edcbc;
+}
+
+.mobile-header img{
+    height: 55px;
+    margin-right: 10px;
+}
+
+@media (max-width: 800px){
+    .mobile-header{
+        display: flex;
+    }
+}
